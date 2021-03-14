@@ -6,6 +6,8 @@ const app = express();
 
 module.exports = app; // EXPORT YOUR SERVER instead of {}
 
+app.use(express.json());
+
 
 // ENDPOINTS
 
